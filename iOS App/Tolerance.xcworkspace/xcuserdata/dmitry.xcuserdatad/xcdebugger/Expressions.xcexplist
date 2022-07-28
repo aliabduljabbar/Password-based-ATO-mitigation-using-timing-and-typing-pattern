@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "DataManager.addAtom(_:):DataManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "atoms_temp.first">
+            </PersistentString>
+            <PersistentString
+               value = "atoms_temp">
+            </PersistentString>
+            <PersistentString
+               value = "atoms_temp.count">
+            </PersistentString>
+            <PersistentString
+               value = "passValue.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DataManager.cutTempForLastClick():DataManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Array(atoms_temp[4...5])">
+            </PersistentString>
+            <PersistentString
+               value = "atoms_temp">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DataManager.deleteLastClick():DataManager.swift">
+      </ContextState>
+      <ContextState
+         contextName = "DataManager.clearTemp():DataManager.swift">
+      </ContextState>
+      <ContextState
+         contextName = "TestFraudViewController.textFieldDidChange(_:):TestFraudViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "DataManager.shared.atoms">
+            </PersistentString>
+            <PersistentString
+               value = "textField.text!.count">
+            </PersistentString>
+            <PersistentString
+               value = "DataManager.shared.getPassLength()">
+            </PersistentString>
+            <PersistentString
+               value = "textField.text!">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "OKApplication.sendEvent(_:):OKApplication.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "event">
+            </PersistentString>
+            <PersistentString
+               value = "event.eventType">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

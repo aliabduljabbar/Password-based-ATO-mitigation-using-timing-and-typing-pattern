@@ -1,0 +1,106 @@
+timestamp - time since the last start of the iPhone
+
+
+{
+    "model" : "iPhone X", // device model
+    "testValue" : "901734", // test value to be typed by the user
+    "user" : "User1", // username
+    "deviceID" : "DF0B8CDC-F877-4087-8C4D-DDA2E8512D46", // unique device ID
+    "os" : "12.1.4", // iOS version
+    "items" : [ // array of data received since the last submission or application start
+        {
+        "accelerometer" : // accelerometer data (position). May be missing
+            {
+                "z" : -0.16412353515625, // float 0...1
+                "y" : -0.4764404296875, // float 0...1
+                "x" : 0.1083526611328125 // float 0...1
+            }
+        },
+
+        {
+            "touch" : // Screen touch data. May be missing
+            {
+
+                "timestamp" : 608130.27129741665, // event time
+                "phase" : "ended", // touch type began|moved|stationary|canceled|ended
+                "source" : { // click location - view
+                    "name" : "buttonDone", // where the click happened buttonDone|mainView|textField
+                    "position" : // position of the view on the screen
+                    {
+                        "origin" : // upper left corner
+                        {
+                            "y" : 234, // float
+                            "x" : 163.66666666666666 // float
+                        },
+                        "size" : // size
+                        {
+                            "height" : 30, // float
+                            "width" : 48 // float
+                        }
+                    },
+
+                    "location" : // touch point inside view
+                    {
+                        "y" : 4, // float
+                        "x" : 9.9999898274739678 // float
+                    }
+                },
+                "majorRadius" : 0, // touch spot radius
+                "majorRadiusTolerance" : 6.05877685546875, // same touch spot radius
+                "force" : 0.11666666666666667 // pressing force 0...1. Only for devices with 3DTouch support
+
+            },
+            "accelometer" :
+            {
+                "z" : -0.276611328125, // float 0...1
+                "y" : -0.954620361328125, // float 0...1
+                "x" : -0.063323974609375 // float 0...1
+            }
+        }
+]
+}
+
+UPDATE ITEM 04/15/2019
+
+{
+"model" : "iPhone X",
+"items" : [
+{
+    "motion" : {
+        "rotationRate" : {
+            "x" : -0.0017537176609039307,
+            "y" : -0.0026655830442905426,
+            "z" : -0.00056027853861451149
+        },
+        "timestamp" : 539793.73545991664,
+        "attitude" : {
+            "pitch" : 0.015532259241542289,
+            "roll" : -0.00094006894258309129,
+            "yaw" : -0.00015453511163159657
+        },
+        "gravity" : {
+            "x" : -0.00093995541101321578,
+            "y" : -0.015531634911894798,
+            "z" : -0.99987894296646118
+        },
+        "userAcceleration" : {
+            "x" : 0.00020753353601321578,
+            "y" : 8.9740380644798279e-05,
+            "z" : -0.0060567259788513184
+        }
+},
+    "touch" : "NULL",
+    "accelometer" : {
+        "z" : -1.0059356689453125,
+        "timestamp" : 539793.73208008334,
+        "y" : -0.01544189453125,
+        "x" : -0.000732421875
+    },
+    "gyro" : {
+        "z" : -0.0020003002947585158,
+        "timestamp" : 539793.7353102084,
+        "y" : 0.0023188143611319926,
+        "x" : 0.0056759952312858807
+    }
+}
+]
